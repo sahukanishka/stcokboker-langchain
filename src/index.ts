@@ -218,5 +218,5 @@ const workflow = new StateGraph(GraphAnnotation)
 export const graph = workflow.compile({
   //   The LangGraph Studio/Cloud API will automatically add a checkpointer
   //   only uncomment if running locally
-  checkpointer: new MemorySaver(),
+  // checkpointer: new MemorySaver(),
 });
